@@ -8,10 +8,10 @@ Each directory is listed in chronological order, meaning the newest (and most pe
 The files in this repository are NOT for public use, but merely for demonstration of code. If you wish to obtain additional information about these files, please contact me: david.a.lucio@gmail.com
 
 Last change:
-June 1, 2019 >>> Added JS/jQuery files from 'LP Builder' tool. Additional files still required. Will update soon.
+June 1, 2019 >>> Migrated DM Dashboard and API directories
 
 
-
+## Project 4
 /** Project 4 -- DM Dashboard Tool **/
 
 This is a personal project I've started working on, in order to facilitate interactivity between Twitch streams and my D&D games. Presently, it includes very basic components. Aside from specific JS libraries and Bootstrap, the rest of the code is mine:
