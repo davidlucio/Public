@@ -11,8 +11,8 @@ Last change:
 June 1, 2019 >>> Migrated DM Dashboard and API directories
 
 
-## Project 4
-/** Project 4 -- DM Dashboard Tool **/
+#### Project 4
+** DM Dashboard Tool **
 
 This is a personal project I've started working on, in order to facilitate interactivity between Twitch streams and my D&D games. Presently, it includes very basic components. Aside from specific JS libraries and Bootstrap, the rest of the code is mine:
 
@@ -24,14 +24,19 @@ This is a personal project I've started working on, in order to facilitate inter
 The ultimate goal is to build out a stream extension, include OAUTH, expand the API, and then streamline usert experience. Afterward, I'll work on replacing bootstrap with my own SASS framework for responsive use.
 
 
-/** Project 3 -- Landing Page Builder **/
+#### Project 3
+**Landing Page Builder **
 
 A dynamic landing page creation tool, meant for non-developers to be able to quickly make branded marketing campaigns without dev oversight. Pages created through the tool would be responive, include Eloqua form injection and validation, and adhere to Getty Images & iStockPhoto design standards. This subdirectory is not completely up-to-date.
 
 
-/** Project 2 -- Sock Module **/
+#### Project 2
+**Sock Module **
+
 Feedback Module created for dev.windows.com
 
 
-/** Project 1 -- Paywall **/
+#### Project 1
+**Paywall**
+
 Paymeter / story tracking system created for Seattle Times
