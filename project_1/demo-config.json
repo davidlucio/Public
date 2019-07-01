@@ -1,0 +1,32 @@
+{
+    "EXC":{"pri123":"1","pri456":"1","pri789":"1","pri000":"1"},
+    "INC":{"sec123":"1","sec456":"1","sec789":"1","sec000":"1"},
+    "IDSC":["35234a","dfa324","8d9a8c"],
+    "MSG":{
+        "reg":{
+            "2":"We invite you to sample our site. If you like what you see, subscribe for unlimited access.",
+            "5":"If you subscribe, you can continue enjoying our site, whenever and wherever you want.",
+            "8":"If you like what you see, why not make it official? Become a subscriber and get unlimited access.",
+            "11":"Take a minute to subscribe, and you'll never have to leave us behind."
+        },
+        "prn":{
+            "2":"Thanks for being a member! For unlimited site access, please upgrade your subscription.",
+            "5":"For unlimited site access, please upgrade your subscription.",
+            "8":"For unlimited site access, please upgrade your subscription.",
+            "11":"We hope you have enjoyed complimentary access. Thanks for being a member! For unlimited site access."
+        },
+        "anon":{
+            "2":"We invite you to sample our site. If you like what you see, subscribe for unlimited access.",
+            "5":"If you subscribe, you can continue enjoying our site, whenever and wherever you want.",
+            "8":"If you like what you see, why not make it official? Become a subscriber and get unlimited access.",
+            "11":"Take a minute to subscribe, and you'll never have to leave us behind."
+        }
+    },
+    "MA":"1",
+    "OA":"1",
+    "LOn":"1",
+    "RP":"45",
+    "IDS":"1",
+    "SEA":"content",
+    "SENV":"t_omni_path"
+}

@@ -1,0 +1,176 @@
+	/** Sock Feedback Styling for DevCenter -- AR-SA Locale	**/
+
+	/** Different Sections **/
+
+	.sock-social-links, .sock-social-responsive {
+		float: left;
+		text-align: left;
+		margin: -3px 0 0 -24px;
+	}
+
+	.sock-social-followtext {
+		margin: 0 0 0 24px;
+	}
+
+	a.sock-social-icon {
+		margin: 0 0 0 14px;
+	}
+
+	.sock-feedback-question, .sock-feedback-form, .sock-feedback-thanks {
+		float: right;
+		text-align: right;
+	}
+
+	span.sock-feedback-text {
+		padding-right: 0;
+		padding-left: 56px;
+		width: 50%;
+	}
+
+	span.responsiveLine1 {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	
+	span.responsiveLine2{
+		padding-right: 0px;
+		padding-left: 56px;
+	}
+
+	
+	/** Buttons & Navigation **/
+	/** STRANGE RULES FOR BUTTONS! **/
+
+	button.sock-feedback-yes {
+		margin: -6px 0px 0px 4px !important;
+	}
+
+	button.sock-feedback-no {
+		margin: -6px 0px 0px 0px !important;
+	}
+
+	button.sock-feedback-submit {
+		margin: 0px 0px 0px 0px !important;
+	}
+
+	button.sock-feedback-skip {
+		margin: 0px 0px 0px 0px !important;
+	}
+	
+
+	/** Responsive Exceptions -- width 540px -- Applied at 767px **/
+	@media screen and (max-width: 767px) {
+
+		.sock-feedback-question, .sock-feedback-form, .sock-feedback-thanks {
+			float: right;
+			position: relative;
+			width: 100%;
+		}
+
+		span.sock-feedback-text {
+			padding: 0px;
+			width: 100%;
+			/** OFFSET: 12px + 7px for buttons **/
+			border: 0;
+			display: inline;
+			float: right;
+		}
+
+		span.responsiveLine1, span.responsiveLine2{
+			padding-right: 0px;
+			padding-left: 0px;
+			margin: 0;
+		}
+
+		textarea.sock-feedback-response {
+			display: block;
+			margin: 18px 0 18px 0;
+			padding: 4px;
+			border: 1px;
+			height: 150px;
+			width: 100%;
+			background-color: white;
+			color: black;
+		}
+		
+		.sock-social-links, .sock-social-responsive{
+			float: left;
+			position: absolute;
+			right: auto;
+			/* Offset left for icon spacing */
+			left: 28px;			
+		}
+		
+		.sock-social-links{
+			display: block;
+		}
+		
+		.sock-social-responsive{
+			display: none;
+		}
+	}
+
+
+	/** Responsive Exceptions -- width 320px -- Applied at 539px **/
+	@media screen and (max-width: 539px) {
+		.sock {
+			width: 100%;
+			color: white;
+			padding: 18px 12px 18px 12px;
+		}
+
+		.sock-feedback-question, .sock-feedback-form, .sock-feedback-thanks {
+			position: relative;
+			margin-bottom: 24px;
+			padding: 0;
+			overflow: auto;
+			height: auto;
+			width: 100%;
+			float: right;
+		}
+
+		span.sock-feedback-text {
+			padding: 0px;
+			width: 100%;
+			/** OFFSET: 12px + 7px for buttons **/
+			margin: 0 0 19px 0;
+			border: 0;
+			display: block;
+			float: right;
+		}
+
+		span.responsiveLine1, span.responsiveLine2{
+			padding-left: 0px;
+			padding-right: 0px;
+			margin: 0;
+		}
+
+		textarea.sock-feedback-response {
+			display: block;
+			margin: 18px 0 18px 0;
+			padding: 4px;
+			border: 1px;
+			height: 150px;
+			width: 100%;
+			background-color: white;
+			color: black;
+		}
+
+		.sock-social-links , .sock-social-responsive{
+			float: right;
+			text-align: right;
+			position: relative;
+			bottom: 0px;
+			z-index: 100;
+			left: auto;
+			right: 12px;
+		}
+		
+		.sock-social-links{
+			display: none;
+		}
+		
+		.sock-social-responsive{
+			display: block;
+		}
+	}

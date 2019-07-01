@@ -1,0 +1,230 @@
+[05-Sep-2018 21:38:23 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 23
+[05-Sep-2018 21:40:12 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 11
+[05-Sep-2018 21:40:45 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 11
+[05-Sep-2018 21:41:33 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 11
+[05-Sep-2018 21:41:45 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 11
+[05-Sep-2018 21:42:02 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 11
+[05-Sep-2018 21:42:04 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 11
+[05-Sep-2018 21:51:04 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 17
+[05-Sep-2018 21:51:04 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 21
+[05-Sep-2018 21:51:04 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 21
+[05-Sep-2018 21:51:04 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 48
+[05-Sep-2018 21:51:51 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 17
+[05-Sep-2018 21:51:51 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 21
+[05-Sep-2018 21:51:51 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 21
+[05-Sep-2018 21:56:08 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 11
+[05-Sep-2018 21:57:05 UTC] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE) in /homeraid/davidluc/hardluckhero/dmdashboard/api.php on line 11
+[05-Sep-2018 22:01:09 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 17
+[05-Sep-2018 22:01:09 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 21
+[05-Sep-2018 22:01:09 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 21
+[05-Sep-2018 22:04:19 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 25
+[05-Sep-2018 22:04:19 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 29
+[05-Sep-2018 22:04:19 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 29
+[05-Sep-2018 22:04:19 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 56
+[05-Sep-2018 22:04:38 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 25
+[05-Sep-2018 22:04:38 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 29
+[05-Sep-2018 22:04:38 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 29
+[05-Sep-2018 22:05:35 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 25
+[05-Sep-2018 22:05:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 29
+[05-Sep-2018 22:05:35 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 29
+[05-Sep-2018 22:20:15 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 28
+[05-Sep-2018 22:20:15 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 32
+[05-Sep-2018 22:20:15 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 32
+[05-Sep-2018 22:20:56 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 40
+[05-Sep-2018 22:20:56 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 44
+[05-Sep-2018 22:20:56 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 44
+[06-Sep-2018 17:19:38 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 45
+[06-Sep-2018 17:19:38 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 49
+[06-Sep-2018 17:19:38 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 49
+[06-Sep-2018 17:20:41 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 45
+[06-Sep-2018 17:20:41 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 49
+[06-Sep-2018 17:20:41 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/dmdashboard/testapi.php on line 49
+[06-Sep-2018 18:53:58 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 45
+[06-Sep-2018 18:53:58 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 49
+[06-Sep-2018 18:53:58 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 49
+[06-Sep-2018 19:39:32 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 40
+[06-Sep-2018 19:39:32 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 19:39:32 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 19:40:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 40
+[06-Sep-2018 19:40:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 19:40:29 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:23:18 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 40
+[06-Sep-2018 23:23:18 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:23:18 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:23:25 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:23:36 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:24:06 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 40
+[06-Sep-2018 23:24:06 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:24:06 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:26:23 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:26:42 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 40
+[06-Sep-2018 23:26:42 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:26:42 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:26:43 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 40
+[06-Sep-2018 23:26:43 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:26:43 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:29:50 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 40
+[06-Sep-2018 23:29:50 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:29:50 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /homeraid/davidluc/hardluckhero/resources/private/testapi.php on line 44
+[06-Sep-2018 23:30:06 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:30:10 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:30:13 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:30:17 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:31:23 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:34:37 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:34:38 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:38:07 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:38:08 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:38:10 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:38:11 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:39:32 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:39:33 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:42:46 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:42:59 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:43:09 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:43:10 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:43:10 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:43:11 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:43:11 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:43:24 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:43:25 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:43:49 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 8
+[06-Sep-2018 23:44:59 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 44
+[06-Sep-2018 23:44:59 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 48
+[06-Sep-2018 23:45:06 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 48
+[06-Sep-2018 23:45:08 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 48
+[06-Sep-2018 23:45:15 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 48
+[06-Sep-2018 23:45:22 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 48
+[06-Sep-2018 23:45:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 48
+[06-Sep-2018 23:45:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 48
+[06-Sep-2018 23:49:51 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 48
+[19-Sep-2018 02:10:44 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 46
+[19-Sep-2018 02:10:44 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:10:54 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 46
+[19-Sep-2018 02:10:54 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:20:57 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:24:20 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 46
+[19-Sep-2018 02:24:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:24:51 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:24:59 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:25:16 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:25:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:26:43 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:26:56 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:37:21 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 46
+[19-Sep-2018 02:37:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:38:54 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 50
+[19-Sep-2018 02:38:54 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 54
+[19-Sep-2018 02:40:11 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 53
+[19-Sep-2018 02:40:11 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 57
+[19-Sep-2018 02:41:11 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 53
+[19-Sep-2018 02:41:11 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 57
+[19-Sep-2018 02:41:49 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 54
+[19-Sep-2018 02:41:49 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[19-Sep-2018 02:42:59 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 54
+[19-Sep-2018 02:42:59 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[19-Sep-2018 02:44:44 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 55
+[19-Sep-2018 02:44:44 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 59
+[19-Sep-2018 02:45:42 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[19-Sep-2018 02:45:42 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[19-Sep-2018 02:46:18 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[19-Sep-2018 02:46:18 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[19-Sep-2018 02:46:24 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[19-Sep-2018 02:46:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[19-Sep-2018 02:47:38 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[19-Sep-2018 02:47:38 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[19-Sep-2018 02:47:44 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[19-Sep-2018 02:47:44 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[19-Sep-2018 02:49:37 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 55
+[19-Sep-2018 02:49:43 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 59
+[19-Sep-2018 02:50:12 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 53
+[19-Sep-2018 02:50:15 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 57
+[19-Sep-2018 02:53:32 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 57
+[19-Sep-2018 02:59:51 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 53
+[19-Sep-2018 02:59:51 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 57
+[19-Sep-2018 03:06:28 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 53
+[19-Sep-2018 03:06:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 57
+[20-Sep-2018 17:43:01 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:43:05 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:43:08 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:43:11 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:43:15 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:43:22 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:43:48 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:44:14 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:45:19 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:45:21 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:47:03 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:47:14 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:47:19 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:47:22 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:47:26 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:47:31 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:47:35 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:47:41 UTC] PHP Fatal error:  Cannot redeclare getRace() (previously declared in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php:44) in /homeraid/davidluc/hardluckhero/resources/private/functions/get.php on line 73
+[20-Sep-2018 17:48:39 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 17:48:39 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:29:59 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:29:59 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:31:00 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:31:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:31:01 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:31:01 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:31:12 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:31:12 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:31:23 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:31:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:32:45 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:32:45 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:32:54 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:33:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:33:06 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:33:06 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:33:09 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:33:09 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[20-Sep-2018 18:33:25 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[20-Sep-2018 18:33:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[21-Sep-2018 18:31:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /homeraid/davidluc/hardluckhero/resources/private/dbconfig.php on line 16
+[21-Sep-2018 18:31:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /homeraid/davidluc/hardluckhero/resources/private/dbconfig.php on line 16
+[21-Sep-2018 19:33:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /homeraid/davidluc/hardluckhero/resources/private/dbconfig.php on line 16
+[21-Sep-2018 19:33:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /homeraid/davidluc/hardluckhero/resources/private/dbconfig.php on line 16
+[21-Sep-2018 19:33:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /homeraid/davidluc/hardluckhero/resources/private/dbconfig.php on line 16
+[21-Sep-2018 19:33:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /homeraid/davidluc/hardluckhero/resources/private/dbconfig.php on line 16
+[21-Sep-2018 19:33:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /homeraid/davidluc/hardluckhero/resources/private/dbconfig.php on line 16
+[26-Sep-2018 02:55:47 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[26-Sep-2018 02:55:47 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 02:58:50 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[26-Sep-2018 02:58:50 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:02:20 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[26-Sep-2018 03:02:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:04:04 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[26-Sep-2018 03:04:04 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:05:42 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:06:10 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:06:12 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:06:52 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[26-Sep-2018 03:06:52 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:07:16 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[26-Sep-2018 03:07:16 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:07:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:07:26 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:14:08 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 03:17:04 UTC] PHP Warning:  mysqli_query(): Empty query in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 58
+[26-Sep-2018 03:17:04 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:21:40 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:22:44 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:23:27 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:23:29 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:24:46 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:24:54 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:25:04 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:25:51 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:50:07 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:50:08 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:50:53 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:50:54 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:51:32 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:52:52 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 17:53:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 20:56:06 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62
+[26-Sep-2018 20:56:07 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /homeraid/davidluc/hardluckhero/resources/private/api.php on line 62

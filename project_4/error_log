@@ -1,0 +1,15 @@
+[25-Sep-2018 19:12:16 UTC] PHP Parse error:  syntax error, unexpected ''charactersheet'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /homeraid/davidluc/hardluckhero/dmdashboard/index.php on line 31
+[31-Oct-2018 22:00:56 UTC] PHP Notice:  Undefined index: lucio in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:01:03 UTC] PHP Notice:  Undefined index: Lucio in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:01:07 UTC] PHP Notice:  Undefined index: David in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:01:11 UTC] PHP Notice:  Undefined index: HardLuckHero in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:01:16 UTC] PHP Notice:  Undefined index: angelina in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:01:19 UTC] PHP Notice:  Undefined index: john in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:01:32 UTC] PHP Notice:  Undefined index: john in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:02:03 UTC] PHP Notice:  Undefined index: Timbre in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:02:07 UTC] PHP Notice:  Undefined index: Starlinge in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[31-Oct-2018 22:02:10 UTC] PHP Notice:  Undefined index: Starling in /homeraid/davidluc/hardluckhero/dmdashboard/apps/charactercreator.php on line 18
+[13-Feb-2019 00:50:01 UTC] PHP Notice:  Undefined variable: applicationList in /homeraid/davidluc/hardluckhero/dmdashboard/components/header.php on line 6
+[13-Feb-2019 00:50:01 UTC] PHP Notice:  Undefined variable: application in /homeraid/davidluc/hardluckhero/dmdashboard/components/header.php on line 6
+[13-Feb-2019 00:50:01 UTC] PHP Notice:  Undefined variable: application in /homeraid/davidluc/hardluckhero/dmdashboard/components/header.php on line 10
+[13-Feb-2019 00:50:01 UTC] PHP Notice:  Undefined variable: application in /homeraid/davidluc/hardluckhero/dmdashboard/components/header.php on line 13

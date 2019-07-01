@@ -1,0 +1,561 @@
+/* BRAND COLORS:
+
+Hardluck Blue   #0088cc rgba(  0,136,204,  1)
+Hardluck Grey   #666677 rgba(102,102,119,  1)
+
+PLACEHOLDER     #969696 rgba(150,150,150,  1)
+DISABLED        #c2c2cc rgba(194,194,204,  1)
+
+OW Orange       #f99e1a	rgba(249,158, 26,  1)
+OW Grey         #43484c	rgba( 67, 72, 76,  1)
+OW Dark Blue    #405275	rgba( 64, 82,117,  1)
+OW Lite Blue    #218ffe	rgba( 33,143,254,  1)
+Black           #000000	rgba(  0,  0,  0,  1)
+
+*/
+
+div.characterSheet{
+    display: block;
+    position: relative;
+    width: calc(100% - 40px);
+    margin: 0px auto 10px auto;
+    padding: 30px 20px;
+    border-radius: 0;
+    box-shadow: 7px 7px 12px 5px #000000;
+    background: transparent url("../images/parchment_texture_01.jpg") repeat center top;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(102,102,119,.9);
+}
+
+.characterSheet p {
+    display: block;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(102,102,119,.9);
+    text-align: justify;
+}
+
+.characterSheet ::placeholder {
+    color: rgba(150,150,150, .75); /* PLACEHOLDER COLOR */
+    font-weight: 400;
+}
+
+.characterSheet .incomplete ::placeholder {
+    color: red;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltipText {
+    visibility: hidden;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    padding: 5px;
+    
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    
+    position: absolute;
+    z-index: 50;
+    top: 5px;
+    left: 5px;
+}
+
+.tooltip .tooltipText::first-line {
+    font-weight: 600;
+}
+.tooltip:hover .tooltipText {
+    visibility: visible;
+}
+
+/*********************************************************/
+/*** CHARACTER PORTRAIT **********************************/
+
+.characterSheet .characterPortrait{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(102,102,119,  .2); /** Hardluck Grey **/
+    border-radius: 10px;
+    margin: 0px 5px 20px;
+    float: right;
+}
+
+.characterSheet .characterPortrait span, 
+.characterSheet .characterPortrait img {
+    width: 100%;
+}
+
+
+/*********************************************************/
+/*** CHARACTER NAME **************************************/
+
+.characterSheet h3{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0px 5px 30px;
+    color: rgba( 64, 82,117,  7); /** OW Dark Blue **/
+    font-size: 28px;
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*********************************************************/
+/*** CHARACTER DATA **************************************/
+
+.characterSheet div.characterData, 
+.characterSheet div.calcStatBox {
+    /* Wrappers */
+    display: block;
+    position: relative;
+    width: calc(100% - 210px);
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.characterSheet label.characterFieldLabel{
+    display: block;
+    position: absolute;
+    bottom: -14px;
+    left: 0px;
+    color: rgba(150,150,150, .75); /** PLACEHOLDER**/
+    font-size: 12px;
+    text-align: left;
+    text-transform: initial;
+}
+
+.characterSheet h3 label.characterFieldLabel{
+    left: 20px;
+    color: rgba( 33,143,254,  .7); /** OW Lite Blue **/
+    font-size: 14px;
+}
+
+.characterSheet div.characterData p.characterField{
+    display: block;
+    position: relative;
+    width: calc(35% - 10px);
+    margin: 0px 5px 30px 5px;
+    border-bottom: 1px solid rgba(200,200,200,.5);
+    float:left;
+}
+
+.characterSheet div.characterData p.characterField.narrow{
+    width: calc(15% - 10px);
+}
+
+/*********************************************************/
+/*** CALCULATED STATS ************************************/
+
+.characterSheet .statWrapper{
+    display: table;
+    position: relative;
+    width: calc(20% - 22px); /* Accounts for Border & Padding */
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid rgba(194,194,204,.7);
+    border-radius: 5px;
+    float: left;
+    z-index: 1;
+}
+
+.characterSheet .statWrapper:after{
+    position: absolute;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent url(../images/statimage-RC.png) no-repeat center center;
+    background-size: contain;
+    z-index: -1;
+    content: "";
+}
+
+.characterSheet #calc-HP.statWrapper:after{
+    background-image: url(../images/statimage-HP.png);
+}
+
+.characterSheet #calc-EP.statWrapper:after{
+    background-image: url(../images/statimage-EP.png);
+}
+
+.characterSheet #calc-AC.statWrapper:after{
+    background-image: url(../images/statimage-AC.png);
+}
+
+.characterSheet #calc-RC.statWrapper:after{
+    background-image: url(../images/statimage-RC.png);
+}
+
+.characterSheet #calc-SP.statWrapper:after{
+    background-image: url(../images/statimage-SP.png);
+}
+
+.characterSheet .statWrapper span{
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.characterSheet .tooltip:hover .tooltipText {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    vertical-align: middle;
+}
+
+
+
+
+/*********************************************************/
+/***  */
+
+
+
+
+
+
+
+
+
+
+.characterSheet input[type="text"]{
+    display: block;
+    width: calc(50% - 10px);
+    margin: 10px 5px 25px 5px;
+    padding: 0px 5px;
+    
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(102,102,119,.9);
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(  0,136,204,.9); /** Hardluck Blue **/
+    float: left;
+}
+
+.characterSheet input[type="text"]:focus{
+    border: none;
+    border-bottom: 2px solid rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    background-color: transparent;
+    color: rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    box-shadow: 0px 6px 10px -4px rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    outline: none;
+}
+
+.characterSheet input[name=player_name]{
+    width: calc(100% - 10px);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*********************************************************/
+/***  */
+
+
+
+/*********************************************************/
+/***  */
+
+
+
+.characterSheet input[type="text"]{
+    display: block;
+    width: calc(50% - 10px);
+    margin: 10px 5px 25px 5px;
+    padding: 0px 5px;
+    
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(102,102,119,.9);
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(  0,136,204,.9); /** Hardluck Blue **/
+    float: left;
+}
+
+.characterSheet input[type="text"]:focus{
+    border: none;
+    border-bottom: 2px solid rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    background-color: transparent;
+    color: rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    box-shadow: 0px 6px 10px -4px rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    outline: none;
+}
+
+.characterSheet input[name=player_name]{
+    width: calc(100% - 10px);
+    font-size: 20px;
+    text-align: center;
+}
+
+/*********************************************************/
+
+.characterSheet select {
+    width: calc(25% - 10px);
+    margin: 10px 5px 25px 5px;
+    padding: 0px 5px;
+    
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(102,102,119,.9);
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(  0,136,204,.9); /** Hardluck Blue **/
+    float: left;
+}
+
+.characterSheet select:focus {
+    border-bottom: 2px solid rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    color: rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    box-shadow: 0px 6px 10px -4px rgba( 33,143,254, 1); /** OW LITE BLUE **/
+    outline: none;
+}
+
+.characterSheet select.emptySelect {
+    font-weight: 400;
+    color: rgba(150,150,150, .75); /* PLACEHOLDER COLOR */
+}
+
+.characterSheet select.fullSelect {
+    font-weight: 600;
+    color: rgba(  0,136,204,.9); /** Hardluck Blue **/
+}
+
+.characterSheet select option{
+    background-color: #ece2c7;
+    font-weight: 600;
+    color: rgba(102,102,119,.9);
+}
+
+.characterSheet select option:disabled{
+    color: rgba(194,194,204,.9);
+}
+
+option[dummyoption]{
+    display: none;
+}
+
+/*********************************************************/
+
+.characterSheet fieldset{
+    margin-bottom: 35px;
+    padding: 3px 10px 11px 10px;
+    border: 1px solid rgba(102,102,119,.9);
+    clear: both;
+}
+
+.characterSheet fieldset legend {
+    padding: 0px 7px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.characterSheet div.radioWrapper{
+    width: calc(33% - 10px);
+    margin: 0px 5px 0px 5px;
+    float:left;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.characterSheet div.radioWrapper input, .characterSheet div.radioWrapper label {
+    cursor: pointer;
+}
+
+.characterSheet div.radioWrapper label {
+    padding-left: 5px;
+    font-weight: 400;
+    color: rgba(150,150,150, .75); /* PLACEHOLDER COLOR */
+}
+
+.characterSheet div.radioWrapper input:focus+label {
+    font-weight: 600;
+    color: rgba( 33,143,254, 1); /** OW LITE BLUE **/
+}
+
+.characterSheet div.radioWrapper input:checked+label {
+    font-weight: 600;
+    color: rgba(  0,136,204,.9); /** Hardluck Blue **/
+}
+
+/*********************************************************/
+
+.characterSheet .statController ul{
+    display: block;
+    width: calc(75% - 40px);
+    margin: 10px 5px 25px 5px;
+    padding: 0px 10px 0px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    float:left;
+}
+.characterSheet .statController li{
+    padding-bottom: 10px;
+}
+
+.characterSheet select[name=stat_roller]{
+    width: calc(100% - 10px);
+    margin: 0px 5px 30px 5px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    clear:both;
+}
+
+/*********************************************************/
+
+.characterSheet .abilityBox{
+    width: calc(30% - 10px);
+    margin: 10px 5px 15px 5px;
+    padding: 0px 5px;
+    text-align: center;
+    float: left;
+}
+
+.characterSheet .abilityBox input[type=number]{
+    display: inline-block;
+    width: calc(50% - 5px);
+    margin: 0px 0px 10px 0px;
+    padding: 2px 0px 2px 10px;
+    
+    background-color: transparent;
+    border: 1px solid rgba(102,102,119,.9);
+    
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(  0,136,204,.9); /** Hardluck Blue **/
+    clear: both;
+}
+
+.characterSheet .abilityBox label{
+    display: inline-block;
+    width: calc(50% - 5px);
+    margin: 0px 0px 10px 5px;
+    
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(102,102,119,.9);
+}
+
+.characterSheet input[type=number]:focus+label {
+    color: rgba( 33,143,254, 1); /** OW LITE BLUE **/
+}
+
+.characterSheet input[type=number]:focus {
+    box-shadow: 0px 6px 10px -4px rgba( 33,143,254, 1); /** OW LITE BLUE **/
+}
+
+/*********************************************************/
+
+
+
+/*********************************************************/
+
+.characterSheet div.submitButton {
+    width: 100%;
+    margin: 0px;
+    height: 40px;
+}
+
+.characterSheet div.submitButton button{
+    display: none;
+    width: 200px;
+    margin: 0px auto;
+    padding: 10px;
+    
+    background-color: transparent;
+    border: 1px solid rgba( 67, 72, 76, .25);
+    border-radius: 5px;
+    color: rgba( 67, 72, 76, .25);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+    
+    pointer-events: none;
+}
+
+.characterSheet div.submitButton button.active {
+    display: block;
+    background-color: rgba(194,194,204, .3);
+    border: 1px solid rgba(102,102,119,  1);
+    color: rgba(102,102,119,1);
+    
+    cursor: pointer;
+    pointer-events: unset;
+}
+
+.characterSheet div.submitButton button.active:hover{
+    background-color: rgba( 33,143,254, .5);
+    border: 1px solid rgba( 33,143,254, 1);
+    color: rgba(255,255,255, 1);
+}
+
+.characterSheet div.submitButton button.active:focus{
+    background-color: rgba(  0,136,204, 1);
+    border: 1px solid rgba(  0,136,204, 1);
+    color: rgba(255,255,255, 1);
+}
+
+
+/* Large */
+    @media (min-width: 1200px) {
+        
+    }
+
+/* Medium */
+    @media (max-width: 850px) {
+        div.characterSheet{
+            width: calc(100% - 20px);
+            padding: 20px 10px;
+            box-shadow: none;
+        }
+        
+    }
+
+/* Small */
+    @media (max-width: 767px) {
+        
+        .characterSheet div.calcStatBox {
+            width: 100%;
+            clear: both;
+        }
+        
+        .characterSheet div.characterData p.characterField, 
+        .characterSheet div.characterData p.characterField.narrow{
+            width: calc(50% - 10px);
+        }
+    }
+
+/* XS */
+    @media (max-width: 480px) {
+        
+    }
+
+info{
+    display: none;
+}

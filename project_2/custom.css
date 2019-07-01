@@ -1,0 +1,1123 @@
+/*!
+------------------------------------------- START OF THIRD PARTY NOTICE -----------------------------------------
+
+This file is based on or incorporates material from the projects listed below (Third Party IP). The original copyright notice and the license under which Microsoft received such Third Party IP, are set forth below. Such licenses and notices are provided for informational purposes only. Microsoft licenses the Third Party IP to you under the licensing terms for the Microsoft product. Microsoft reserves all other rights not expressly granted under this agreement, whether by implication, estoppel or otherwise. 
+
+//-----------------------------------------------------------------------------
+twbs-bootstrap-sass (3.3.0)
+//-----------------------------------------------------------------------------
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Twitter, Inc
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+//-----------------------------------------------------------------------------
+necolas-normalize.css (3.0.2)
+//-----------------------------------------------------------------------------
+! normalize.css v3.0.2 | MIT License | git.io/normalize
+
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Provided for Informational Purposes Only
+MIT License 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the Software), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION 
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION 
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+/*Responsive updates*/
+body {
+    min-width: 320px !important;
+}
+
+.container {
+    max-width: 1180px !important;
+}
+
+#headerWrapper .shell-header-wrapper {
+    width: auto;
+    max-width: 1180px !important;
+    padding: 0 !important;
+}
+
+#footerWrapper .shell-footer-wrapper {
+    width: auto;
+    max-width: 1180px !important;
+    padding: 0 !important;
+}
+
+.shell-header-wrapper, .shell-footer-wrapper {
+    max-width: auto;
+    max-width: 1180px !important;
+    padding: 0 !important;
+}
+
+@media screen and (max-width: 539px) {
+    .jumbotron {
+        display: block !important;
+    }
+
+    button {
+        text-overflow: ellipsis;
+    }
+    /*centering hero content for xs and sm*/
+    #hero-home .jumbotron-content {
+        text-align: center;
+    }
+
+    #hero-home .btn-group .btn {
+        float: none;
+    }
+}
+
+.video-player {
+    margin-top: 0 !important;
+}
+
+/*Highlight band*/
+@media screen and (min-width: 768px) {
+    .jumbotron .jumbotron-header.header-large {
+        font-size: 34px !important;
+    }
+
+    .jumbotron .jumbotron-header.header-large {
+        margin-top: 0 !important;
+        /*padding-top: 0 !important;*/
+    }
+
+    /*.jumbotron.jumbotron-highlight-band {
+        padding-top: 60px !important;
+    }
+
+        .jumbotron.jumbotron-highlight-band.jumbotron-highlight-band-full-height {
+            padding-top: 0 !important;
+        }*/
+}
+/*.jumbotron .image-container {
+    padding: 0 !important;
+}*/
+
+/*Windows trends page*/
+/* Mimic Bootstrap's .nav-tabs>li(.active)>a 
+   when using radio buttons instead of links in tab headers */
+.nav-tabs li.label {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.nav-tabs > li.active > label {
+    cursor: default;
+}
+
+.nav-tabs {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+    .nav-tabs li {
+        margin-top: 12px !important;
+    }
+        /*fix for horizontal tabs - not used on Trends page*/
+        .nav-tabs li a {
+            padding-left: 0px !important;
+        }
+    /*end fix*/
+    .nav-tabs .radio {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+.hr-trends {
+    margin-top: 12px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.tab-pane .section.section .media-container {
+    margin-bottom: 8px !important;
+}
+
+.tab-pane .section.section {
+    margin-top: 32px !important;
+}
+
+.section-caption {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+/*End Windows trends page*/
+
+/*End Responsive updates*/
+
+.subtext-gray {
+    font-size: 1.25em;
+    font-weight: 200;
+    color: #767676;
+}
+
+.navigation.vertical-navigation {
+    margin-top: 48px;
+}
+
+    .navigation.vertical-navigation a {
+        color: #393939;
+    }
+
+        .navigation.vertical-navigation a:link {
+            color: #767676;
+        }
+
+        .navigation.vertical-navigation a:visited {
+            color: #767676;
+        }
+
+        .navigation.vertical-navigation a:hover {
+            color: #2B2B2B;
+        }
+
+        .navigation.vertical-navigation a:focus {
+            color: #2B2B2B;
+        }
+
+        .navigation.vertical-navigation a:active {
+            color: #393939;
+        }
+
+    .navigation.vertical-navigation ul ul {
+        padding-left: 12px;
+        padding-bottom: 8px;
+    }
+
+    .navigation.vertical-navigation .current-page > a {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 600;
+        font-size: 0.9375rem;
+        line-height: 1.25rem;
+        padding-bottom: 0.227px;
+        padding-top: 0.227px;
+        padding-bottom: 0.227px;
+        padding-top: 0.227px;
+        color: #393939;
+    }
+
+        .navigation.vertical-navigation .current-page > a:link {
+            color: #000000;
+        }
+
+        .navigation.vertical-navigation .current-page > a:visited {
+            color: #000000;
+        }
+
+        .navigation.vertical-navigation .current-page > a:hover {
+            color: #2B2B2B;
+        }
+
+        .navigation.vertical-navigation .current-page > a:focus {
+            color: #2B2B2B;
+        }
+
+        .navigation.vertical-navigation .current-page > a:active {
+            color: #393939;
+        }
+
+.breadcrumb {
+    color: #767676;
+}
+
+.page-banner {
+    background-color: #F2F2F2;
+    padding-top: 8px;
+    padding-bottom: 48px;
+}
+
+    .page-banner .banner-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.page-title {
+    margin-bottom: 48px;
+}
+
+    .page-title .title-text, .page-title .subtitle-text {
+        display: block;
+    }
+
+    .page-title .subtitle-text {
+        color: #393939;
+    }
+
+/*
+@media screen and (max-width: 768px) {
+    .section {
+        margin-top: 60px !important; 
+    }
+		
+        .section .item-section {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+		
+}
+*/
+/*
+@media screen and (min-width: 1084px){
+	.section .section.item-section {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 1084px) and (min-width: 540px){
+	.section div:nth-child(3) .section.item-section, 
+	.section div:nth-child(4) .section.item-section {
+		margin-bottom: 0;
+	}
+}
+*/
+
+.section .section.item-section {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1399px) {
+    .section .section.item-section {
+        margin-bottom: 32px;
+    }
+}
+
+.section .section-graphic {
+    margin-bottom: 20px;
+}
+
+.gallery .gallery-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.tile {
+    background-color: #F2F2F2;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 16px;
+    position: relative;
+}
+
+    .tile .tile-image {
+        margin-top: 16px;
+        padding-left: 4px;
+    }
+
+.page-footer, .page-header {
+    background-color: #E6E6E6;
+    height: 200px;
+}
+
+    .page-footer .text-base, .page-header .text-base {
+        color: #767676;
+        margin-top: 60px;
+        display: block;
+        text-align: center;
+    }
+
+.tile-nav {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #F2F2F2;
+}
+
+    .tile-nav [class*="col"] {
+        background-color: #FFFFFF;
+    }
+
+        .tile-nav [class*="col"]:first-child a {
+            margin-left: 2px;
+        }
+
+        .tile-nav [class*="col"]:last-child a {
+            margin-right: 2px;
+        }
+
+@media (max-width: 539px) {
+    .tile-nav [class*="col"] a {
+        margin-bottom: 4px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .tile-nav [class*="col"]:last-child a {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    .tile-nav [class*="col"]:nth-child(1) a, .tile-nav [class*="col"]:nth-child(2) a, .tile-nav [class*="col"]:nth-child(3) a {
+        margin-bottom: 4px;
+    }
+
+    .tile-nav [class*="col"]:nth-child(3n) a {
+        margin-right: 2px;
+    }
+
+    .tile-nav [class*="col"]:nth-child(4n) a {
+        margin-left: 2px;
+    }
+}
+
+.tile-nav a {
+    background-color: #F2F2F2;
+    display: block;
+    text-align: center;
+    padding: 24px 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    color: #393939;
+}
+
+    .tile-nav a:link {
+        color: #393939;
+    }
+
+    .tile-nav a:visited {
+        color: #393939;
+    }
+
+    .tile-nav a:hover {
+        color: #2B2B2B;
+    }
+
+    .tile-nav a:focus {
+        color: #2B2B2B;
+    }
+
+    .tile-nav a:active {
+        color: #393939;
+    }
+
+    .tile-nav a:hover {
+        background-color: #E6E6E6;
+    }
+
+.jumbotron-pc-bg {
+    background-color: #0072c6 !important;
+    color: #ffffff;
+}
+
+.off-white-bg {
+    background-color: #f2f2f2;
+}
+/* blogs and events */
+.blog-list a,
+.event-list a {
+    color: rgb(0,0,0) !important;
+}
+
+    .blog-list span,
+    .blog-list a:hover,
+    .event-list span,
+    .event-list a:hover {
+        color: rgba(0,0,0,.6) !important;
+    }
+
+.blog-entry .day,
+.blog-entry .year {
+    margin-left: 25px;
+}
+
+.blog-entry .date,
+.event .date {
+    color: #6d6d6d !important;
+}
+
+.blog-entry .day, .blog-entry .year {
+    margin-left: 0px;
+}
+
+.blog-entr {
+    margin-bottom: 20px;
+}
+
+.blog-entries:first-child {
+    margin-top: -5px !important;
+}
+
+.eventlist:first-child {
+    margin-top: -5px !important;
+}
+
+.eventlist:first-child {
+    margin-top: -5px !important;
+}
+
+.blog-entry, .event {
+    margin-bottom: 20px !important;
+}
+
+/* stats-container */
+/*.stats-container {
+    position: relative;
+    min-height: 68px;
+    padding-left: 74px;
+    float: left;
+}*/
+
+    /*.stats-container .stats-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }*/
+
+    /*.stats-container .text-subtitle {
+        margin: 0;
+        padding-top: 2px;
+    }*/
+
+    .stats-container .text-title {
+        /*margin: 0;*/
+        font-size: 36px;
+        color: #646464;
+        width: 300px;
+    }
+
+.stat-value {
+    color: #646464;
+    font-size: 36px !important;
+}
+
+/*@media (min-width: 768px) and (max-width: 991px) {
+    .stats-container {
+        width: 33%;
+    }
+}
+
+@media (max-width: 767px) {
+    .stats-container {
+        width: 100%;
+        float: none;
+    }
+}*/
+
+.styleless li {
+    list-style: disc;
+    margin-left: 45px;
+}
+
+.padding-12-bottom {
+    padding-bottom: 12px;
+}
+/* PROGRAMS */
+/*@media (min-width: 768px) {
+    .stats-container {
+        display: inline-block;
+        margin: 0 18.35em 0 0;
+    }
+
+    .stats-icon {
+        float: left;
+    }
+
+    .stats-container ul {
+        float: right;
+        margin: 0 !important;
+    }
+
+        .stats-container ul li {
+            margin: 0 !important;
+        }
+}*/
+
+.bullet-ul {
+    list-style-type: disc;
+    margin: auto;
+    padding: 0 0 0 2.5em;
+}
+/* END PROGRAMS */
+
+/* WINJS PAGE*/
+.play-btn-w4 {
+    margin: 30px 0 0 100px !important;
+    left: 8px !important;
+}
+
+.play-btn-w4-home, .play-btn-w4, .play-btn-w9 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.gal-close-icon {
+    position: absolute;
+    clip: rect(0, 20px, 20px, 0);
+}
+
+.gal-closebtn {
+    position: absolute;
+    top: -24px;
+    height: 20px;
+    width: 24px;
+}
+/* END WINJS */
+
+/* HOME */
+#hero-home {
+    /*background-color: #006abb; - blue before v-Now - 7/23/15 */
+    background-color: #005496; /* new blue color for contrast contrast with the UHF v-Now/dropdowns - added 7-23-15  */
+    color: #fff;
+}
+
+    #hero-home .btn {
+        background-color: transparent;
+        border: thin solid #fff;
+        color: #fff;
+    }
+
+.icon-48 {
+    width: 48px;
+    height: 48px;
+}
+
+video {
+    width: 100%;
+}
+
+/* END HOME */
+
+/* SERVICES */
+.icon-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.highlight-samples {
+    background-size: cover;
+    background-position: 0 52px;
+    height: 100% !important;
+    width: 100% !important;
+}
+/* PARTNER Center */
+.ph-ul {
+    margin-left: -1em;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.pc-band {
+    margin: 20px 0;
+}
+
+/* WIN DEV 10 */
+#dev-win-hro {
+    padding-top: 2.3em;
+    padding-left: 0.65em;
+}
+
+ul.blog-list li:first-child {
+    margin-top: 0px;
+}
+
+.spacer-45-top {
+    margin-top: 45px;
+}
+
+.no-min-height {
+    min-height: 0px !important;
+}
+
+.no-84-top {
+    margin-top: 0px !important;
+}
+
+.no-84-bottom {
+    margin-bottom: 0px !important;
+}
+/* COMMUNITY PG EVENTS FIX*/
+
+
+
+/* DOWNLOADS */
+
+/* Bridges */
+.trademark {
+    font-size: 12px;
+    color: #666666;
+}
+.breadcrumb-white > li > a {
+	color: #fff;
+}
+.banner-bg-blue {
+	background-color: #006abb;
+}
+
+/* IOT PAGE */
+#iot-hero .btn-primary {
+    background-color: #2C77A8 !important;
+}
+
+/* FLIP MODULE */
+.carousel-bg {
+    background-color: #006abb;
+    color: #fff;
+}
+
+.carousel-wrapper .row {
+    margin: 0 !important;
+}
+
+.carousel-inner {
+    min-height: 320px !important;
+    height: 320px;
+}
+
+.carousel-caption {
+    text-align: left !important;
+    color: #fff;
+    position: relative;
+    left: 15%;
+    right: 15%;
+    bottom: 0 !important;
+}
+
+.carousel .item > a > img, .carousel .item > img {
+    float: right;
+    margin-right: 6em;
+}
+
+.carousel-btn {
+    padding-top: 32px;
+    padding-left: 2px;
+}
+
+.carousel .btn {
+    background-color: transparent;
+    border: thin solid #fff;
+    color: #fff !important;
+    overflow: visible !important;
+}
+
+.carousel ol .carousel-indicators {
+    margin-top: 32px !important;
+}
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: rgba(235, 235, 235, 0.5);
+    border-color: #CCC;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: rgba(235, 235, 235, 1);
+    width: 10px;
+    height: 10px;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+        height: 320px;
+        max-height: 320px;
+    }
+
+    .item {
+        padding-top: 58px !important;
+    }
+
+    /*.carousel-caption h1 {
+        padding-top: 16px !important;
+    }*/
+
+    .carousel-btn {
+        padding-bottom: 32px !important;
+    }
+
+    .carousel .icon-prev {
+        left: -10px !important;
+        color: #CCC;
+    }
+
+    .carousel .icon-next {
+        right: 15px !important;
+        color: #CCC;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-wrapper .carousel-indicators {
+        bottom: 16px !important;
+        padding-top: 32px !important;
+    }
+
+    .carousel .image-col {
+        padding-top: 48px;
+        padding-bottom: 24px;
+    }
+
+    .carousel-caption {
+        position: relative !important;
+        /*padding-top: 30px !important;*/
+        left: 0;
+        right: 0;
+        bottom: 0px !important;
+    }
+
+        .carousel-caption h1 {
+            padding-top: 0px !important;
+        }
+
+    .carousel-control {
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 539px) {
+    .carousel-inner {
+        min-height: 500px !important;
+    }
+
+    .carousel-caption {
+        text-align: center !important;
+        padding-top: 0 !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .carousel-inner {
+        min-height: 464px !important;
+        vertical-align: middle;
+    }
+
+    .carousel-caption {
+        text-align: center !important;
+        padding-top: 0 !important;
+    }
+}
+
+/* WHATS NEW */
+.col-325 {
+    width: 325px;
+}
+
+#wnW10 section div.section-body table p {
+    margin-top: 0px !important;
+}
+/* WIN 10 DEV PREVIEW */
+#code-overlap {
+    position: absolute;
+    z-index: 99;
+    float: right;
+    right: 63px;
+    margin-top: -2.1px;
+}
+
+/* remove top margin-padding */
+.top-none {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+/* Kendo Graphs CSS */
+.page-title-header > h2 {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+	/** Sock Feedback Styling for DevCenter **/
+
+	.sockWrapper{
+		width: 100%;
+		background-color: #0078D7;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.sock {
+		background-color: #0078D7;
+		width: 90%;
+		max-width: 1180px;
+		margin-right: auto;
+		margin-left: auto;
+		color: white;
+		min-height: 56px;
+		padding: 18px 0px 0px 0px;
+	}
+
+	br.breakfloat{
+		height: 0px;
+		width: 0px;
+		clear: both;
+	}
+
+
+	/** Different Sections **/
+
+	.sock-social-links, .sock-social-responsive {
+		float: right;
+		position: relative;
+		width: auto;
+		min-width: 225px;
+		z-index: 100;
+		/* Offset by -3px included in <img> tags */
+		margin: -3px -24px 0 0;
+	}
+	
+	.sock-social-links{
+		display: block;
+	}
+	
+	.sock-social-responsive{
+		display: none;
+	}
+
+	.sock-social-followtext {
+		margin: 0 24px 0 0;
+	}
+
+	a.sock-social-icon {
+		/* Offset by 2px included in <img> tags */
+		margin: 0 14px 0 0;
+		padding: 0;
+	}
+
+	.sock-feedback-question, .sock-feedback-form, .sock-feedback-thanks {
+		position: relative;
+		padding-bottom: 18px;
+		overflow: visible;
+		float: left;
+		width: auto;
+		min-width: 50%;
+	}
+
+	.sock-feedback-question, .sock-feedback-thanks {
+		height: 32px;
+	}
+
+	.sock-feedback-form, .sock-feedback-thanks {
+		display: none;
+	}
+
+	span.sock-feedback-text {
+		padding-right: 56px;
+		margin: 0;
+		border: 0;
+		display: inline;
+	}
+
+	span.responsiveLine1 {
+		padding-right: 0px;
+	}
+
+
+	/** Buttons & Navigation **/
+
+	button.sock-feedback-yes, button.sock-feedback-no, button.sock-feedback-submit, button.sock-feedback-skip {
+		background-color: #454545;
+		color: white;
+		position: relative;
+		max-height: 32px;
+		min-height: 32px;
+	}
+
+	button.sock-feedback-no, button.sock-feedback-yes {
+		/* max-width: 56px; */
+		min-width: 56px;
+	}
+
+	button.sock-feedback-submit, button.sock-feedback-skip {
+		max-width: 120px;
+		min-width: 120px;
+	}
+
+	button.sock-feedback-yes {
+		margin: -6px 4px 0 0 !important;
+	}
+
+	button.sock-feedback-no {
+		margin: -6px 4px 0 -4px !important;
+	}
+
+	button.sock-feedback-submit {
+		margin: 0 4px 0 0 !important;
+	}
+
+	button.sock-feedback-skip {
+		margin: 0 0 0 -4px !important;
+	}
+
+	/** Submission Form **/
+
+	textarea.sock-feedback-response {
+		display: block;
+		margin: 18px 0 18px 0;
+		padding: 4px;
+		border: 1px;
+		height: 150px;
+		width: 100%;
+		background-color: white;
+		color: black;
+	}
+
+
+	/** Responsive Exceptions -- width 540px -- Applied at 767px **/
+	@media screen and (max-width: 767px) {
+		.sock {
+			width: 100%;
+			color: white;
+			padding: 18px 24px 12px 24px;
+		}
+
+		.sock-feedback-question, .sock-feedback-form, .sock-feedback-thanks {
+			position: relative;
+			margin-bottom: 6px;
+			padding: 0;
+			overflow: auto;
+			height: auto;
+			width: 100%;
+			float: left;
+		}
+		
+		/** This looks better at 18px bottom consistently **/
+		/**
+		.sock-feedback-question{
+			margin-bottom: 0px;
+		}
+		**/
+
+		span.sock-feedback-text {
+			padding: 0px;
+			width: 100%;
+			/** OFFSET: 12px + 7px for buttons **/
+			margin: 0 0 19px 0;
+			border: 0;
+			display: block;
+			float: left;
+		}
+
+		span.responsiveLine1, span.responsiveLine2{
+			padding-right: 0px;
+			margin: 0;
+		}
+
+		textarea.sock-feedback-response {
+			display: block;
+			margin: 18px 0 18px 0;
+			padding: 4px;
+			border: 1px;
+			height: 150px;
+			width: 100%;
+			background-color: white;
+			color: black;
+		}
+		
+		.sock-social-links, .sock-social-responsive{
+			float: right;
+			position: absolute;
+			right: 0px;
+			z-index: 100;
+			margin: 0;
+		}
+		
+		.sock-social-links{
+			display: block;
+		}
+		
+		.sock-social-responsive{
+			display: none;
+		}
+	}
+
+
+	/** Responsive Exceptions -- width 320px -- Applied at 539px **/
+	@media screen and (max-width: 539px) {
+		.sock {
+			width: 100%;
+			color: white;
+			padding: 18px 12px 18px 12px;
+		}
+
+		.sock-feedback-question, .sock-feedback-form, .sock-feedback-thanks {
+			position: relative;
+			margin-bottom: 24px;
+			padding: 0;
+			overflow: auto;
+			height: auto;
+			width: 100%;
+			float: left;
+		}
+
+		span.sock-feedback-text {
+			padding: 0px;
+			width: 100%;
+			/** OFFSET: 12px + 7px for buttons **/
+			margin: 0 0 19px 0;
+			border: 0;
+			display: block;
+			float: left;
+		}
+
+		span.responsiveLine1, span.responsiveLine2{
+			padding-right: 0px;
+			margin: 0;
+		}
+
+		textarea.sock-feedback-response {
+			display: block;
+			margin: 18px 0 18px 0;
+			padding: 4px;
+			border: 1px;
+			height: 150px;
+			width: 100%;
+			background-color: white;
+			color: black;
+		}
+
+		.sock-social-links , .sock-social-responsive{
+			float: left;
+			position: relative;
+			bottom: 0px;
+			z-index: 100;
+		}
+		
+		.sock-social-links{
+			display: none;
+		}
+		
+		.sock-social-responsive{
+			display: block;
+		}
+	}
